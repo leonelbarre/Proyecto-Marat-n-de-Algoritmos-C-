@@ -1,0 +1,2 @@
+#include <iostream>
+using namespace std; long long factorial(int x){ long long f=1; for(int i=1;i<=x;i++) f*=i; return f;} int main(){int N; cin>>N; long long sum=0; for(int i=N;i>=1;i--) sum+=factorial(i); cout<<sum<<endl; return 0;}
